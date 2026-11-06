@@ -1,0 +1,20 @@
+{
+  "source_repo": "zeekay/flask-uwsgi-websocket",
+  "source_url": "https://github.com/zeekay/flask-uwsgi-websocket",
+  "audit_date": "2026-11-06T10:00:31.490864",
+  "ai_model": "gemini-2.0-flash",
+  "findings_count": 1,
+  "severity_breakdown": {
+    "CRITICAL": 1
+  },
+  "findings": [
+    {
+      "id": "PY-CMDI-001",
+      "name": "Command injection via shell=True",
+      "severity": "CRITICAL",
+      "cwe": "CWE-78",
+      "file": "flask_uwsgi_websocket/_uwsgi.py",
+      "line": 51
+    }
+  ]
+}
